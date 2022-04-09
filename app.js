@@ -35,7 +35,7 @@ app.post("/", (req, res) => {
     const url = "https://us14.api.mailchimp.com/3.0/lists/7a7d814274";
     const options = {
         method: "POST",
-        auth: "akhil3:a9cfc33928a71e8b6b65a674b250cded2-us14"
+        auth: "akhil3:9cfc33928a71e8b6b65a674b250cded2-us14"
     }
 
     const request = https.request(url, options, (response) => {
@@ -63,3 +63,4 @@ app.listen(process.env.PORT||3000, () => {
 
 // 9cfc33928a71e8b6b65a674b250cded2-us14
 // 7a7d814274
+// https://ancient-inlet-86293.herokuapp.com/
